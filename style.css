@@ -152,6 +152,7 @@ img
 {
     grid-column: 3 / 2;
     grid-row: 7 / 7;
+    margin-top: 300px;
 }
 #gif
 {
@@ -215,18 +216,6 @@ img
     grid-row: 3 / 4;
     font-family: 'Libre Baskerville'; 
     margin-top: -80px;
-}
-#nait2
-{
-   grid-column: 1/2;
-   grid row: 6/7;
-   margin-top: 400px; 
-}
-#gif2
-{
-   grid-column: 3 / 4;
-   grid-row: 4 / 5;
-   margin-top: 200px;
 }
 @media screen and ( min-device-width: 800px ) 
 {
