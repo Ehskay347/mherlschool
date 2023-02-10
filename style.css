@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.body
+{
+    color: #0fefef;
+    background-color: #3e374d;
+    font-family: 'Libre Baskerville';
+}
+.Container
+{
+ display: grid;
+ grid-template-columns: 25% [first] 25% [line2] 25% [line3] 25% [line4];
+ grid-template-rows: 200px [firstRow] 200px [secondRow] 100px [thirdRow] 100px [fourthRow] 50px [fifthRow] 100px [sixthRow];
+}
+h1
+{
+ font-family: 'Noto Sans Display';
+ text-indent: 20px;
+ font-size:75px;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ 
+}
+hr
+{
+    border: 2px solid #0fefef;
+}
+h2
+{
+    font-size: medium;
+font-family: 'Noto Sans Display';   
+ border: 2px solid black;
+ border-radius: 5px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 5px;
+ padding-right: 5px;
+ background-color: #67568b;
+ width: 85px;
+}
+#occ
+{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+    font-size: small;
+    margin-top: -5px;
+}
+#hache
+{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3; 
+}
+#hache2
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #67568b;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3; 
+}
+#Who
+{
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+a:link a:visited {color: #0fefef;}
+a:hover {color: violet;}
+a:active {color: red;}
+
+img
+{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+}
+#title
+{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    font-family: 'Libre Baskerville';
+}
+#home
+{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Libre Baskerville';
+}
+#AboutMe
+{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Libre Baskerville';
+}
+#Contact
+{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Libre Baskerville';
+}
+#Portfolio
+{
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+    text-align: center;
+    font-family: 'Libre Baskerville';  
+}
+#idp
+{
+    width: 150px;
+}
+#desc
+{
+    grid-column: 1 / 3;
+    grid-row: 3 / 4; 
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    margin-top: 50px;
+}
+#line1
+{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+#line2
+{
+    grid-column: 1 / 3;
+    grid-row: 5 / 6;
+}
+#img1
+{
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+    text-align: end;
+    margin-top: 50px;
+}
+#img2
+{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    text-align: end;
+    margin-top: 50px;
+}
+#nait
+{
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+#gif
+{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5; 
+}
+#para
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #67568b;
+    grid-column: 1 / 3;
+    grid-row: 2 / 5;
+    font-family: 'Libre Baskerville'; 
+}
+#goalList
+{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3; 
+    text-align:justify;
+    margin-top: 80px;
+    font-family: 'Libre Baskerville';
+}
+#ConInfo
+{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    font-family: 'Libre Baskerville';  
+}
+#Email
+{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4; 
+    font-family: 'Libre Baskerville';
+}
+#Disc
+{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4; 
+    font-family: 'Libre Baskerville';
+}
+#Phn
+{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5; 
+    font-family: 'Libre Baskerville';
+}
+#skills
+{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    font-family: 'Libre Baskerville'; 
+} 
+#skillList
+{
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    font-family: 'Libre Baskerville'; 
+    margin-top: 50px;
+}  
+@media screen and ( min-width : 800px ) 
+{
+        .body
+        {
+            color: #0fefef;
+            background-color: #3e374d;
+        }
+        .Container
+        {
+         display: grid;
+         grid-template-columns: 25% [first] 25% [line2] 25% [line3] 25% [line4];
+         grid-template-rows: 200px [firstRow] 200px [secondRow] 100px [thirdRow] 100px [fourthRow] 50px [fifthRow] 100px [sixthRow];
+        }
+        h1
+        {
+         font-family: 'Libre Baskerville';
+         text-indent: 20px;
+         font-size:80px;
+         margin-bottom: 5px;
+         margin-top: 5px;
+         
+        }
+        hr
+        {
+            border: 2px solid #0fefef;
+        }
+        h2
+        {
+         font-family: 'Libre Baskerville';
+         border: 2px solid black;
+         border-radius: 5px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         padding-left: 5px;
+         padding-right: 5px;
+         background-color: #67568b;
+         width: 200px;
+        }
+        #occ
+        {
+            grid-column: 1 / 3;
+            grid-row: 5 / 6;
+        }
+        #hache
+        {
+            grid-column: 4 / 5;
+            grid-row: 2 / 3; 
+        }
+        a:link a:visited {color: #0fefef;}
+        a:hover {color: violet;}
+        a:active {color: red;}
+        
+        img
+        {
+            grid-column: 1 / 3;
+            grid-row: 2 / 4;
+        }
+        #title
+        {
+            grid-column: 1 / 3;
+            grid-row: 2 / 4;
+        }
+        #home
+        {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+        #AboutMe
+        {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+        #Contact
+        {
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            text-align: center;
+        }
+        #Portfolio
+        {
+            grid-column: 4 / 5;
+            grid-row: 1 / 2;
+            text-align: center;  
+        }
+        #idp
+        {
+            width: 300px;
+        }
+        #desc
+        {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4; 
+            text-align: center;
+            font-family: 'Libre Baskerville';
+        }
+        #line1
+        {
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+            margin-top: 50px;
+        }
+        #line2
+        {
+            grid-column: 1 / 3;
+            grid-row: 5 / 6;
+        }
+        #img1
+        {
+            grid-column: 4 / 5;
+            grid-row: 2 / 3;
+            text-align: end;
+        }
+        #img2
+        {
+            grid-column: 4 / 5;
+            grid-row: 3 / 4;
+            text-align: end;
+        }
+        #nait
+        {
+            grid-column: 1 / 2;
+            grid-row: 6 / 7;
+        }
+        #gif
+        {
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;  
+            width: "250px"; 
+            height:"315px"
+        }
+        #para
+        {
+            border: 2px solid black;
+            border-radius: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            background-color: #67568b;
+            grid-column: 1 / 2;
+            grid-row: 2 / 4;
+            font-family: 'Libre Baskerville'; 
+        }
+        #goalList
+        {
+            grid-column: 4 / 5;
+            grid-row: 2 / 3; 
+            text-align:justify;
+            margin-top: 50px;
+            font-family: 'Libre Baskerville';
+        }
+        #who
+        {
+            grid-column: 4 / 5;
+            grid-row: 6 / 7;
+            font-family: 'Libre Baskerville';
+        }
+        #ConInfo
+        {
+            grid-column: 2 / 4;
+            grid-row: 1 / 2;
+            font-family: 'Libre Baskerville';  
+        }
+        #Email
+        {
+            grid-column: 2 / 3;
+            grid-row: 2 / 4;
+            font-family: 'Libre Baskerville'; 
+        }
+        #Disc
+        {
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+            font-family: 'Libre Baskerville'; 
+        }
+        #Phn
+        {
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
+            font-family: 'Libre Baskerville'; 
+        }  
+        #skills
+        {
+            grid-column: 1 / 3;
+            grid-row: 2 / 4;
+            font-family: 'Libre Baskerville'; 
+        } 
+        #skillList
+        {
+            grid-column: 1 / 3;
+            grid-row: 2 / 4;
+            font-family: 'Libre Baskerville'; 
+            margin-top: 50px;
+        }     
+    }
+    
