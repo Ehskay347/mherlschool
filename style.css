@@ -176,7 +176,7 @@ img
 #goalList
 {
     grid-column: 3 / 5;
-    grid-row: 2 / 3;
+    grid-row: 4 / 5;
     text-align: left;
     margin-top: 80px;
     font-family: 'Libre Baskerville';
