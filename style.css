@@ -51,7 +51,7 @@ font-family: 'Noto Sans Display';
 {
     grid-column: 3 / 5;
     grid-row: 3 / 3; 
-    margin-top:-100px;
+    margin-top:100px;
 }
 #hache2
 {
@@ -264,9 +264,9 @@ img
         }
         #hache
         {
-            grid-column: 4 / 5;
+            grid-column: 4 / 6;
             grid-row: 2 / 3;
-            margin-top: 0px;
+            margin-top: -100px;
             font-size: xx-large;
         }
         a:link a:visited {color: #0fefef;}
